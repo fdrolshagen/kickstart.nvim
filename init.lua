@@ -11,7 +11,7 @@ Kickstart.nvim is a template for your own configuration.
   what your configuration is doing, and modify it to suit your needs.
 
   Once you've done that, you should start exploring, configuring and tinkering to
-  explore Neovim!
+  ea axplore Neovim!
 
   If you don't know anything about Lua, I recommend taking some time to read through
   a guide. One possible example:
@@ -510,6 +510,12 @@ cmp.setup {
     { name = 'luasnip' },
   },
 }
+
+require("remap")
+require("set")
+require("autocmd")
+require("set-harpoon"
+)require("lsp")
 
 -- The line beneath this is called `modeline`. See `:help modeline`
 -- vim: ts=2 sts=2 sw=2 et
